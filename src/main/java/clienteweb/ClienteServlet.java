@@ -1,6 +1,9 @@
 package clienteweb;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -28,12 +31,17 @@ public class ClienteServlet extends HttpServlet {
 	@Override
 	protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		//
+		resp.setCharacterEncoding("UTF-8");
+		resp.getWriter().print("Chamou pelo método DELETE");
 	}
 	
 	@Override
 	protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
-		//
+	 
+		resp.setCharacterEncoding("UTF-8");
+		resp.getWriter().print("Chamou pelo método PUT");
 	}
+	
+	
+	
 }

@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+
+header {
+	width: 100%;
+	height: 81px;
+	background-color: #132b3b;
+}
+header .container {
+	position: relative;
+}
+
+header .container2 {
+	position: relative;
+	background-color: #e42d40;
+    width: 100%;
+    height: 33px;
+    margin: -3px 0px 0px;
+}
+header #logotipo {
+	position: absolute;
+    top: 24px;
+    width: 204px;
+}
+#menu {
+	margin: 26px 0;
+}
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+}
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+
+#menu-2 {
+	
+}
+#menu-2 li {
+	display: inline-block;
+	font-family: "OpenSans";
+	padding: 4px;
+}
+#menu-2 li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+#news h2 {
+	font-size: 20px;
+	
+}
+
+#news .thumbnails h3 {
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+#news .thumbnails h4 {
+	color: #e42d40;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#news {
+	position: relative;
+    top: 43px;
+}
+
+#news hr {
+	border: #3333332e solid 1px;
+    margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 20px;
+}
+
+footer {
+	margin-top: 156px;
+}
+footer .row {
+	width: 100%;
+}
+footer .row p {
+	line-height: 55px;
+	margin-bottom: 0;
+}
+footer .row-cinza-claro {
+	height: 91px;
+	background-color: #e32d3f;
+	width: auto;
+}
+footer .row-cinza-escuro {
+	height: 60px;
+	background-color: #132b3b;
+	width: auto;
+}
+footer .pull-left, .pull-right {
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color: #666;
+}
+footer .logotipo {
+		margin-top: 28px;
+		width: 200px;
+}
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch {
+	margin-top: 40px;
+}
+footer .row-cols h4 {
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #FFF;
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+footer .row-cols h5 {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+footer .col-links a {
+	color: #FFF;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links .fa {
+	margin: 0 6px;
+}
